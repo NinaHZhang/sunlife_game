@@ -847,15 +847,9 @@ GameObject:
   - component: {fileID: 546217743}
   - component: {fileID: 546217745}
   - component: {fileID: 546217746}
-<<<<<<< HEAD
   - component: {fileID: 610969785}
-=======
-<<<<<<< HEAD
   - component: {fileID: 546217747}
   - component: {fileID: 546217748}
-=======
->>>>>>> 3063465ff5f50570ee6a9ba139d2ad1f4f7b5f29
->>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
   m_Layer: 0
   m_Name: Player 0
   m_TagString: Untagged
@@ -951,22 +945,18 @@ MonoBehaviour:
   bulletSpeed: 1
   isFacingLeft: 0
 --- !u!95 &546217746
-<<<<<<< HEAD
 Animator:
   serializedVersion: 5
-=======
   movePoint: {fileID: 1965125387}
   cm: {fileID: 0}
 --- !u!114 &546217746
 MonoBehaviour:
->>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546217742}
   m_Enabled: 1
-<<<<<<< HEAD
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -979,7 +969,6 @@ MonoBehaviour:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-=======
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a46f70a2634b994428ce52dcb7ef4908, type: 3}
   m_Name: 
@@ -1057,7 +1046,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
->>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
 --- !u!1 &610969782
 GameObject:
   m_ObjectHideFlags: 0
@@ -19907,7 +19895,6 @@ SceneRoots:
   - {fileID: 976979548}
   - {fileID: 546217744}
   - {fileID: 486818366}
-<<<<<<< HEAD
   - {fileID: 253149012}
   - {fileID: 703613712}
   - {fileID: 7327216445281311231}
@@ -19918,13 +19905,8 @@ SceneRoots:
   - {fileID: 2089213363}
   - {fileID: 2114358967}
   - {fileID: 2140994261}
-=======
-<<<<<<< HEAD
   - {fileID: 7327216445281311231}
   - {fileID: 703613712}
   - {fileID: 2017759995}
   - {fileID: 678004081}
-=======
   - {fileID: 253149012}
->>>>>>> 3063465ff5f50570ee6a9ba139d2ad1f4f7b5f29
->>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
