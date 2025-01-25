@@ -10,6 +10,11 @@ public class bullet : MonoBehaviour
 
     private enemy enemy;
     // Update is called once per frame
+
+    private void Start()
+    {
+        deleteAfterSpawning();
+    }
     void Update()
     {
 
@@ -30,7 +35,14 @@ public class bullet : MonoBehaviour
 
             enemy = collision.gameObject.GetComponent<enemy>();
             enemy.gotHit();
+            Destroy(this.gameObject);
 
         }
+    }
+
+    private IEnumerator deleteAfterSpawning()
+    {
+        yield return new WaitForSeconds(10);
+        Destroy(this.gameObject);
     }
 }
