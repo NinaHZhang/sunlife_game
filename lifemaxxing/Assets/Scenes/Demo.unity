@@ -937,12 +937,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-<<<<<<< HEAD
   bullet: {fileID: 778535713}
   bulletSpeed: 1
   isFacingLeft: 0
 --- !u!95 &546217746
-=======
   movePoint: {fileID: 1965125387}
 --- !u!1 &610969782
 GameObject:
@@ -1030,7 +1028,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &610969785
->>>>>>> 64adaf8a41497138ee18d41d514b8badcf69f7ed
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -1126,8 +1123,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623461169}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &681234513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,7 +1295,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
->>>>>>> 64adaf8a41497138ee18d41d514b8badcf69f7ed
 --- !u!1 &721896641
 GameObject:
   m_ObjectHideFlags: 0
@@ -18954,8 +18948,6 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
-<<<<<<< HEAD
-=======
 --- !u!1 &1951970056
 GameObject:
   m_ObjectHideFlags: 0
@@ -19263,7 +19255,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> 64adaf8a41497138ee18d41d514b8badcf69f7ed
 --- !u!1 &2051110998
 GameObject:
   m_ObjectHideFlags: 0
@@ -19339,8 +19330,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051110998}
   m_CullTransparentMesh: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &2089213362
 GameObject:
   m_ObjectHideFlags: 0
@@ -19724,7 +19713,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
->>>>>>> 64adaf8a41497138ee18d41d514b8badcf69f7ed
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -19736,10 +19724,4 @@ SceneRoots:
   - {fileID: 976979548}
   - {fileID: 546217744}
   - {fileID: 486818366}
-<<<<<<< HEAD
   - {fileID: 253149012}
-=======
-  - {fileID: 7327216445281311231}
-  - {fileID: 703613712}
-  - {fileID: 2017759995}
->>>>>>> 64adaf8a41497138ee18d41d514b8badcf69f7ed
