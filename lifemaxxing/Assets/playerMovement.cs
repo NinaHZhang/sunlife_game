@@ -23,10 +23,20 @@ public class playerMovement : MonoBehaviour
         if (Input.GetAxisRaw("Vertical") == 0f && Input.GetAxisRaw("Horizontal") == 0f)
         {
             playerAnimation.SetBool("isWalk", false);
+            if(Input.GetAxisRaw("Vertical") >= 1f || Input.GetAxisRaw("Horizontal") >= -1f)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            }
+            if(Input.GetAxisRaw("Vertical") >= -1f || Input.GetAxisRaw("Horizontal") >= 1f)
+            {
+                this.gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+
         }
         else
         {
             playerAnimation.SetBool("isWalk", true);
         }
+
     }
 }
