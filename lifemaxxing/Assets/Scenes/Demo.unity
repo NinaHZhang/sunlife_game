@@ -847,7 +847,15 @@ GameObject:
   - component: {fileID: 546217743}
   - component: {fileID: 546217745}
   - component: {fileID: 546217746}
+<<<<<<< HEAD
   - component: {fileID: 610969785}
+=======
+<<<<<<< HEAD
+  - component: {fileID: 546217747}
+  - component: {fileID: 546217748}
+=======
+>>>>>>> 3063465ff5f50570ee6a9ba139d2ad1f4f7b5f29
+>>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
   m_Layer: 0
   m_Name: Player 0
   m_TagString: Untagged
@@ -943,14 +951,22 @@ MonoBehaviour:
   bulletSpeed: 1
   isFacingLeft: 0
 --- !u!95 &546217746
+<<<<<<< HEAD
 Animator:
   serializedVersion: 5
+=======
+  movePoint: {fileID: 1965125387}
+  cm: {fileID: 0}
+--- !u!114 &546217746
+MonoBehaviour:
+>>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546217742}
   m_Enabled: 1
+<<<<<<< HEAD
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
@@ -963,6 +979,85 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46f70a2634b994428ce52dcb7ef4908, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cm: {fileID: 2017759994}
+--- !u!61 &546217747
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546217742}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1.1111112}
+    newSize: {x: 1, y: 1.1111112}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.1111112}
+  m_EdgeRadius: 0
+--- !u!50 &546217748
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546217742}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+>>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
 --- !u!1 &610969782
 GameObject:
   m_ObjectHideFlags: 0
@@ -1143,6 +1238,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623461169}
   m_CullTransparentMesh: 1
+--- !u!1001 &678004081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5861164310178690049, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_Name
+      value: coin-animation_0 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5861164310178690049, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -0.40667936
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4104442
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
 --- !u!1 &681234513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin-animation_0 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5861164310178690049, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2778177
@@ -1271,11 +1439,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.833
+      value: 7.37
       objectReference: {fileID: 0}
     - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.7997
+      value: 4.64
       objectReference: {fileID: 0}
     - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -19671,6 +19839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coin-animation_0
       objectReference: {fileID: 0}
+    - target: {fileID: 5861164310178690049, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
+      propertyPath: m_TagString
+      value: coin
+      objectReference: {fileID: 0}
     - target: {fileID: 9175956201332887288, guid: ed3ba8cd69367784ba998759703a7ee5, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2869212
@@ -19735,6 +19907,7 @@ SceneRoots:
   - {fileID: 976979548}
   - {fileID: 546217744}
   - {fileID: 486818366}
+<<<<<<< HEAD
   - {fileID: 253149012}
   - {fileID: 703613712}
   - {fileID: 7327216445281311231}
@@ -19745,3 +19918,13 @@ SceneRoots:
   - {fileID: 2089213363}
   - {fileID: 2114358967}
   - {fileID: 2140994261}
+=======
+<<<<<<< HEAD
+  - {fileID: 7327216445281311231}
+  - {fileID: 703613712}
+  - {fileID: 2017759995}
+  - {fileID: 678004081}
+=======
+  - {fileID: 253149012}
+>>>>>>> 3063465ff5f50570ee6a9ba139d2ad1f4f7b5f29
+>>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4

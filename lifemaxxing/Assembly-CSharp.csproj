@@ -60,10 +60,22 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Assets/Scripts/CoinManager.cs" />
     <Compile Include="Assets/Scripts/playerMovement.cs" />
     <Compile Include="Assets/Scripts/bullet.cs" />
     <Compile Include="Assets/Scripts/enemy.cs" />
+=======
+<<<<<<< HEAD
+    <Compile Include="Assets\CoinManager.cs" />
+    <Compile Include="Assets\PlayerCollection.cs" />
+    <Compile Include="Assets\playerMovement.cs" />
+=======
+    <Compile Include="Assets/CoinManager.cs" />
+    <Compile Include="Assets/Scripts/playerMovement.cs" />
+    <Compile Include="Assets/Scripts/bullet.cs" />
+>>>>>>> 3063465ff5f50570ee6a9ba139d2ad1f4f7b5f29
+>>>>>>> 16fb86cc4d88eafdebb308f648a736ebbf78f8c4
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
