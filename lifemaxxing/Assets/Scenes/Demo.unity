@@ -845,12 +845,6 @@ GameObject:
   - component: {fileID: 546217745}
   - component: {fileID: 546217746}
   - component: {fileID: 610969785}
-<<<<<<< HEAD
-=======
-  - component: {fileID: 610969788}
-  - component: {fileID: 610969787}
-  - component: {fileID: 610969786}
->>>>>>> bea796b6e1014682cf48c540be46e68dbc2dfead
   m_Layer: 0
   m_Name: Player 0
   m_TagString: Untagged
@@ -967,8 +961,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD
-=======
 --- !u!1 &610969782
 GameObject:
   m_ObjectHideFlags: 0
@@ -19322,23 +19314,3 @@ SceneRoots:
   - {fileID: 976979548}
   - {fileID: 546217744}
   - {fileID: 486818366}
-<<<<<<< HEAD
-  - {fileID: 253149012}
-  - {fileID: 678004081}
-  - {fileID: 7327216445281311231}
-  - {fileID: 703613712}
-  - {fileID: 1951970057}
-  - {fileID: 2017759995}
-=======
-  - {fileID: 678004081}
-  - {fileID: 703613712}
-  - {fileID: 253149012}
-  - {fileID: 7327216445281311231}
-  - {fileID: 610969783}
-  - {fileID: 1951970057}
-  - {fileID: 2017759995}
-  - {fileID: 2040008407}
-  - {fileID: 2089213363}
-  - {fileID: 2114358967}
-  - {fileID: 2140994261}
->>>>>>> bea796b6e1014682cf48c540be46e68dbc2dfead

@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{765A2C08-959D-ABD2-6A44-FC26C318D5E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Demo.unity">
     <Files>
       <File FileName="Assets/Scripts/playerMovement.cs" Line="16" Column="27" />
-      <File FileName="Assets/bullet.cs" Line="22" Column="63" />
-      <File FileName="Assets/Scripts/enemy.cs" Line="13" Column="6" />
-      <File FileName="Assets/Scenes/Demo.unity" Line="19883" Column="24" />
+      <File FileName="Assets/bullet.cs" Line="32" Column="28" />
+      <File FileName="Assets/Scripts/enemy.cs" Line="18" Column="21" />
+      <File FileName="Assets/Scenes/Demo.unity" Line="847" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
