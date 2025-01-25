@@ -12,8 +12,8 @@ public class playerMovement : MonoBehaviour
     public GameObject bullet;
     public float bulletSpeed = 1f;
 
-    public bool isFacingLeft = false;   
-
+    public bool isFacingLeft = false;
+    public CoinManager cm;
 
 
     private void Start()
@@ -81,6 +81,14 @@ public class playerMovement : MonoBehaviour
         GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
         newBullet.GetComponent<bullet>().isFacingLeft = false;
 
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("coin"))
+        {
+            cm.coinCount++;
+        }
     }
 
 }
