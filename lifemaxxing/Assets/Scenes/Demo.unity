@@ -847,6 +847,7 @@ GameObject:
   - component: {fileID: 546217743}
   - component: {fileID: 546217745}
   - component: {fileID: 546217746}
+  - component: {fileID: 610969785}
   m_Layer: 0
   m_Name: Player 0
   m_TagString: Untagged
@@ -922,6 +923,7 @@ Transform:
   - {fileID: 758813329}
   - {fileID: 335275153}
   - {fileID: 1198452892}
+  - {fileID: 1965125387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &546217745
@@ -937,11 +939,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  bullet: {fileID: 778535713}
+  bullet: {fileID: 254521433694497643, guid: 2aad9df4820304eee9bf64ec2b92d6d3, type: 3}
   bulletSpeed: 1
   isFacingLeft: 0
 --- !u!95 &546217746
-  movePoint: {fileID: 1965125387}
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546217742}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &610969782
 GameObject:
   m_ObjectHideFlags: 0
@@ -952,7 +973,6 @@ GameObject:
   m_Component:
   - component: {fileID: 610969783}
   - component: {fileID: 610969784}
-  - component: {fileID: 610969785}
   m_Layer: 0
   m_Name: Enemy 4
   m_TagString: Untagged
@@ -973,7 +993,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 239423205}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &610969784
 SpriteRenderer:
@@ -1153,8 +1173,7 @@ Transform:
   m_LocalPosition: {x: -4.46, y: -0.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1365887282}
+  m_Children: []
   m_Father: {fileID: 2040008407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &681234515
@@ -18978,7 +18997,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1257588137}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1951970058
 SpriteRenderer:
@@ -19137,15 +19156,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1046483003}
-  - {fileID: 403311288}
   - {fileID: 2043885626}
   - {fileID: 681234514}
-  - {fileID: 1257588137}
-  - {fileID: 1556392389}
-  - {fileID: 1900673873}
-  - {fileID: 300643974}
-  - {fileID: 239423205}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2043885625
@@ -19178,8 +19190,7 @@ Transform:
   m_LocalPosition: {x: -5.09, y: -0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 426505914}
+  m_Children: []
   m_Father: {fileID: 2040008407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2043885627
@@ -19361,7 +19372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 239423205}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2089213364
 SpriteRenderer:
@@ -19467,7 +19478,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 239423205}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2114358968
 SpriteRenderer:
@@ -19573,7 +19584,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 239423205}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2140994262
 SpriteRenderer:
@@ -19725,3 +19736,12 @@ SceneRoots:
   - {fileID: 546217744}
   - {fileID: 486818366}
   - {fileID: 253149012}
+  - {fileID: 703613712}
+  - {fileID: 7327216445281311231}
+  - {fileID: 610969783}
+  - {fileID: 1951970057}
+  - {fileID: 2017759995}
+  - {fileID: 2040008407}
+  - {fileID: 2089213363}
+  - {fileID: 2114358967}
+  - {fileID: 2140994261}
