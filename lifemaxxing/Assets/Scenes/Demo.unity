@@ -847,7 +847,6 @@ GameObject:
   - component: {fileID: 546217743}
   - component: {fileID: 546217745}
   - component: {fileID: 546217746}
-  - component: {fileID: 610969785}
   - component: {fileID: 546217747}
   - component: {fileID: 546217748}
   m_Layer: 0
@@ -945,8 +944,6 @@ MonoBehaviour:
   bulletSpeed: 1
   isFacingLeft: 0
 --- !u!95 &546217746
-Animator:
-  serializedVersion: 5
   movePoint: {fileID: 1965125387}
   cm: {fileID: 0}
 --- !u!114 &546217746
@@ -957,18 +954,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546217742}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a46f70a2634b994428ce52dcb7ef4908, type: 3}
   m_Name: 
@@ -19905,8 +19890,3 @@ SceneRoots:
   - {fileID: 2089213363}
   - {fileID: 2114358967}
   - {fileID: 2140994261}
-  - {fileID: 7327216445281311231}
-  - {fileID: 703613712}
-  - {fileID: 2017759995}
-  - {fileID: 678004081}
-  - {fileID: 253149012}
