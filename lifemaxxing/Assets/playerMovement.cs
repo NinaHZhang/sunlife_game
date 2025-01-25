@@ -9,7 +9,7 @@ public class playerMovement : MonoBehaviour
 
     private Animator playerAnimation;
 
-
+    public CoinManager cm;
 
     private void Start()
     {
@@ -38,5 +38,16 @@ public class playerMovement : MonoBehaviour
             playerAnimation.SetBool("isWalk", true);
         }
 
+       
+
     }
+    
+     
+
+     
+     void OnTriggerEnter2D(Collider2D other){
+        if(other.gameObject.CompareTag("coin")) {
+            cm.coinCount ++;
+        }
+     }
 }

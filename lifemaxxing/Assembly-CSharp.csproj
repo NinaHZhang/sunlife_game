@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CoinManager.cs" />
+    <Compile Include="Assets\PlayerCollection.cs" />
     <Compile Include="Assets\playerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
