@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{765A2C08-959D-ABD2-6A44-FC26C318D5E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scenes/Demo.unity">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/enemySpawner.cs">
     <Files>
       <File FileName="Assets/Scripts/playerMovement.cs" Line="16" Column="27" />
-      <File FileName="Assets/bullet.cs" Line="32" Column="28" />
-      <File FileName="Assets/Scripts/enemy.cs" Line="18" Column="21" />
-      <File FileName="Assets/Scenes/Demo.unity" Line="847" Column="35" />
+      <File FileName="Assets/Scripts/enemy.cs" Line="26" Column="18" />
+      <File FileName="Assets/Scenes/Demo.unity" />
+      <File FileName="Assets/Scripts/enemySpawner.cs" Line="15" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3c75d0ec-724f-4cc9-aad2-949f8e33281b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1dcd877-edef-4d46-bed4-75b1c48e054a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

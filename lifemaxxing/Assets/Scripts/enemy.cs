@@ -24,7 +24,6 @@ public class enemy : MonoBehaviour
     public void gotHit()
     {
         health--;
-        Debug.Log("hit!");
     }
 
 
