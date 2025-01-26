@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CoinManager : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class CoinManager : MonoBehaviour
     public Text text;
     public GameObject endingCanvasScreen;
     private float time;
+
+    public TMP_Text coinText;
 
     // Start is called before the first frame update
     void Start()
@@ -28,5 +31,9 @@ public class CoinManager : MonoBehaviour
         {
             endingCanvasScreen.SetActive(true);
         }
+
+        coinText.text = "Coin Counter: " + coinCount.ToString();
     }
+
+
 }

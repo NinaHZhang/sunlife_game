@@ -18,15 +18,47 @@ public class playerMovement : MonoBehaviour
     public CoinManager cm;
     public SpriteRenderer playerRenderer;
     public health hearts;
+    private bool shielded; 
+    public GameObject shield;
+
+    public bool shieldonce;
 
 
     private void Start()
     {
         playerAnimation = this.gameObject.GetComponent<Animator>();
+        shielded = false;
+        shieldonce = true;
+        
+        
     }
     // Update is called once per frame
+
+    void NoShield(){
+            shield.SetActive(false);
+            shielded = false;
+        }
+    IEnumerator CheckShield(){
+            if(Input.GetKeyDown(KeyCode.H)&&!shielded&&shieldonce){
+                shield.SetActive(true);
+                shielded = true;
+                //code for turning off shield after 3 seconds
+                yield return new WaitForSeconds(5);
+
+                NoShield();
+                shieldonce=false;
+            }
+        }
+
     void Update()
     {
+        
+        StartCoroutine(CheckShield());
+        //check shield
+        
+
+
+        
 
         //standing
         transform.position = new Vector3(transform.position.x + Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, transform.position.y + Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0);
@@ -143,10 +175,7 @@ public class playerMovement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("coin"))
-        {
-            cm.coinCount++;
-        }
+       
 
         if (other.gameObject.CompareTag("enemy"))
         {
@@ -165,5 +194,7 @@ public class playerMovement : MonoBehaviour
         }
         
     }
-
 }
+
+    
+
