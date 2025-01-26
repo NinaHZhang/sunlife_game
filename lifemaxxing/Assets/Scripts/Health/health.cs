@@ -17,9 +17,24 @@ public class health : MonoBehaviour
 
     public void TakeDamage(float _damage) {
         currentHealth -= _damage;
+<<<<<<< HEAD
+        currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
+
+        
+        if (currentHealth > 0) {
+            //player hurt
+        }
+        else {
+            //player dead 
+        }
+=======
+>>>>>>> d1ecd5bf15e765b62eed127610625096f749ce02
     }
     void Update()
     {
-        
+        //i just substituted damage with E key
+        if (Input.GetKeyDown(KeyCode.E)){
+            TakeDamage(1);
+        }
     }
 }
