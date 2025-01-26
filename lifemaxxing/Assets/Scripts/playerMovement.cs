@@ -151,7 +151,7 @@ public class playerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("enemy"))
         {
             playerHealth--;
-            playerRenderer.color = new Color(1, 0, 0, 0);
+            playerRenderer.color = new Color(1, 0, 0, 1);
         }
 
        
