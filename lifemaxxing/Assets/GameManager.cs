@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public DemoLoadScene demoLoadScene;
+    public DemoLoadScene demoLoadScene = null;
     public bool isGirl = false;
     
 
@@ -47,6 +47,16 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(4);
         SceneManager.LoadScene("Boy");
+    }
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("Start");
+    }
+
+    public void HomeScreen()
+    {
+        SceneManager.LoadScene("Figma");
     }
 
 }
