@@ -29,9 +29,6 @@ public class health : MonoBehaviour
     }
     void Update()
     {
-        //i just substituted damage with E key
-        if (Input.GetKeyDown(KeyCode.E)){
-            TakeDamage(1);
-        }
+
     }
 }

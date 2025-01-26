@@ -16,8 +16,8 @@ public class playerMovement : MonoBehaviour
     public bool isFacingDown = false;
     public bool isFacingUp = false;
     public CoinManager cm;
-    public int playerHealth = 3;
     public SpriteRenderer playerRenderer;
+    public health hearts;
 
 
     private void Start()
@@ -150,7 +150,7 @@ public class playerMovement : MonoBehaviour
 
         if (other.gameObject.CompareTag("enemy"))
         {
-            playerHealth--;
+            hearts.TakeDamage(1);
             playerRenderer.color = new Color(1, 0, 0, 1);
         }
 
@@ -163,7 +163,7 @@ public class playerMovement : MonoBehaviour
         {
             playerRenderer.color = Color.white;
         }
-
+        
     }
 
 }
