@@ -16,10 +16,22 @@ public class health : MonoBehaviour
     // Update is called once per frame
 
     public void TakeDamage(float _damage) {
-        currentHealth -= _damage
+        currentHealth -= _damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
+
+        
+        if (currentHealth > 0) {
+            //player hurt
+        }
+        else {
+            //player dead 
+        }
     }
     void Update()
     {
-        
+        //i just substituted damage with E key
+        if (Input.GetKeyDown(KeyCode.E)){
+            TakeDamage(1);
+        }
     }
 }
