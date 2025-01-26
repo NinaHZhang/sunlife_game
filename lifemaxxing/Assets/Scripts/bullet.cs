@@ -7,7 +7,8 @@ public class bullet : MonoBehaviour
 
     public float speed = 5f;
     public bool isFacingLeft;
-
+    public bool isFacingDown;
+    public bool isFacingUp;
     private enemy enemy;
     // Update is called once per frame
 
@@ -18,13 +19,21 @@ public class bullet : MonoBehaviour
     void Update()
     {
 
-        if (isFacingLeft == true)
+        if (isFacingLeft == true && isFacingDown == false)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
-        if (isFacingLeft == false)
+        if (isFacingLeft == false && isFacingDown == false && isFacingUp == false)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
+        if (isFacingLeft == false && isFacingDown == true)
+        {
+            transform.Translate(Vector2.down * speed * Time.deltaTime);
+        }
+        if (isFacingLeft == false && isFacingDown == false && isFacingUp == true)
+        {
+            transform.Translate(Vector2.up * speed * Time.deltaTime);
         }
     }
 
