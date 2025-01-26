@@ -13,6 +13,8 @@ public class playerMovement : MonoBehaviour
     public float bulletSpeed = 1f;
 
     public bool isFacingLeft = false;
+    public bool isFacingDown = false;
+    public bool isFacingUp = false;
     public CoinManager cm;
 
 
@@ -42,13 +44,30 @@ public class playerMovement : MonoBehaviour
 
                 this.gameObject.GetComponent<SpriteRenderer>().flipX = true;
                 isFacingLeft = true;
+                isFacingDown = false;
+                isFacingUp = false;
             }
             if (Input.GetAxisRaw("Horizontal") >= 1f)
             {
                 this.gameObject.GetComponent<SpriteRenderer>().flipX = false;
                 isFacingLeft = false;
+                isFacingDown = false;
+                isFacingUp = false;
             }
 
+            if (Input.GetAxisRaw("Vertical") <= -1f)
+            {
+                isFacingLeft = false;
+                isFacingDown = true;
+                isFacingUp = false;
+            }
+            if (Input.GetAxisRaw("Vertical") >= 1f)
+            {
+                isFacingDown = false;
+                isFacingLeft = false;
+                isFacingUp = true;
+            }
+            
         }
 
         if (isFacingLeft)
@@ -59,13 +78,28 @@ public class playerMovement : MonoBehaviour
             }
         }
 
-        if (!isFacingLeft)
+        if (isFacingDown)
+        {
+            if (Input.GetKeyDown("space"))
+            {
+                ShootBulletDown();
+            }
+        }
+        if (!isFacingDown && !isFacingLeft &&!isFacingUp)
         {
             if (Input.GetKeyDown("space"))
             {
                 ShootBulletRight();
             }
         }
+        if (isFacingUp)
+        {
+            if (Input.GetKeyDown("space"))
+            {
+                ShootBulletUp();
+            }
+        }
+
 
     }
 
@@ -73,13 +107,35 @@ public class playerMovement : MonoBehaviour
     {
         GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
         newBullet.GetComponent<bullet>().isFacingLeft = true;
-
+        newBullet.GetComponent<bullet>().isFacingDown = false;
+        newBullet.GetComponent<bullet>().isFacingUp = false;
     }
 
     private void ShootBulletRight()
     {
         GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
         newBullet.GetComponent<bullet>().isFacingLeft = false;
+        newBullet.GetComponent<bullet>().isFacingDown = false;
+        newBullet.GetComponent<bullet>().isFacingUp = false;
+
+    }
+
+    private void ShootBulletDown()
+    {
+        GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
+        newBullet.GetComponent<bullet>().isFacingLeft = false;
+        newBullet.GetComponent<bullet>().isFacingDown = true;
+        newBullet.GetComponent<bullet>().isFacingUp = false;
+
+    }
+
+
+    private void ShootBulletUp()
+    {
+        GameObject newBullet = Instantiate(bullet, this.transform.position, this.transform.rotation);
+        newBullet.GetComponent<bullet>().isFacingLeft = false;
+        newBullet.GetComponent<bullet>().isFacingDown = false;
+        newBullet.GetComponent<bullet>().isFacingUp = true;
 
     }
 
