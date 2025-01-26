@@ -16,7 +16,7 @@ public class health : MonoBehaviour
     // Update is called once per frame
 
     public void TakeDamage(float _damage) {
-        currentHealth -= _damage
+        currentHealth -= _damage;
     }
     void Update()
     {

@@ -16,6 +16,8 @@ public class playerMovement : MonoBehaviour
     public bool isFacingDown = false;
     public bool isFacingUp = false;
     public CoinManager cm;
+    public int playerHealth = 3;
+    public SpriteRenderer playerRenderer;
 
 
     private void Start()
@@ -145,6 +147,23 @@ public class playerMovement : MonoBehaviour
         {
             cm.coinCount++;
         }
+
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            playerHealth--;
+            playerRenderer.color = new Color(1, 0, 0, 0);
+        }
+
+       
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("enemy"))
+        {
+            playerRenderer.color = Color.white;
+        }
+
     }
 
 }

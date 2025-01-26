@@ -1,18 +1,18 @@
 ﻿<Properties StartupConfiguration="{765A2C08-959D-ABD2-6A44-FC26C318D5E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CoinManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Health/health.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="16" Column="27" />
-      <File FileName="Assets/Scripts/enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="164" Column="48" />
+      <File FileName="Assets/Scripts/bullet.cs" />
+      <File FileName="Assets/Scripts/enemy.cs" />
       <File FileName="Assets/Scenes/Demo.unity" />
-      <File FileName="Assets/Scripts/enemySpawner.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/bullet.cs" Line="36" Column="64" />
-      <File FileName="Assets/CoinSpawner.cs" Line="35" Column="43" />
-      <File FileName="Assets/Scripts/CoinManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/enemySpawner.cs" />
+      <File FileName="Assets/Scripts/CoinManager.cs" />
+      <File FileName="Assets/Scripts/Health/health.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d1dcd877-edef-4d46-bed4-75b1c48e054a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87b14382-e5fa-4c50-a5ea-f1932045d307" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
