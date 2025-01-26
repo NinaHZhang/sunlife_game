@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/EasyTransitions/Demo/TransitionDemo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: ac8e6938c2e144961a1bd5d98f81f2c7
+  - enabled: 1
+    path: Assets/Scenes/Boy.unity
+    guid: 38e5db794b8649e42b8feb732f733f6c
+  - enabled: 1
+    path: Assets/Scenes/Girl.unity
+    guid: 769d44e34f88a4a1894702b7bd38775f
   m_configObjects: {}
