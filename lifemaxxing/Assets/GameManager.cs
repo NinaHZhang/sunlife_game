@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public DemoLoadScene demoLoadScene;
+    public bool isGirl = false;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -22,12 +24,14 @@ public class GameManager : MonoBehaviour
 
     public void Girl()
     {
+        PlayerPrefs.SetString("isGirl", "Yes");
         demoLoadScene.LoadScene("TransitionDemo");
         StartCoroutine(WaitGirl());
         
     }
     public void Boy ()
     {
+        PlayerPrefs.SetString("isGirl", "No");
         demoLoadScene.LoadScene("TransitionDemo");
         StartCoroutine(WaitBoy());
     }

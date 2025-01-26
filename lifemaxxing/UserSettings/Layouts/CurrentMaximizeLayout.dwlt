@@ -63,7 +63,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - /Users/lideng/GitHub/sunlife_game/lifemaxxing/Library/PlayModeViewStates/9e2410b063ae346cfa8826462ea89323
+  - /Users/lideng/GitHub/sunlife_game/lifemaxxing/Library/PlayModeViewStates/60b447f24a0124247bb80ea6fb2372b4
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
@@ -95,7 +95,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -241,9 +241,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 84e10200
+      m_SelectedIDs: 86700100
       m_LastClickedID: 0
-      m_ExpandedIDs: 5282fcfff286fcffa089fcff4697fcff5c9afcffba9bfcff829cfcff389dfcff9c9dfcff549efcff3cc8fcffe4c8fcff04ccfcff3cf6fcff26f7fcffa00afdff7e0bfdff600cfdff5062fdff688ffdffd294fdffac95fdff5096fdff2097fdfffe97fdffb698fdff8499fdff289afdffca9bfdffba9cfdff569dfdfff29dfdffa2a2fdffbea2fdffc0a2fdffd0a3fdff0caafdff54edfdffa2edfdff8c29feffb22afeff6eaf0000eeec0000503701006c3701003c380100bcaf0100b6b7010044b801009eb80100f4b801000ab9010058b9010096b90100fab9010048ba010092ba01008afb0100241d02004022020036630200ce630200aa640200ce64020012650200c0650200026602004c9c020000a40200e2a7020040a8020046ab0200c6ab0200
+      m_ExpandedIDs: 3a57fcff8657fcffb458fcff0a59fcffca59fcff245afcff7062fcffcc62fcff4a70fcff5e71fcff8a72fcff267afcff787afcff5282fcfff286fcffa089fcff4697fcff5c9afcffba9bfcff829cfcff389dfcff9c9dfcff549efcff3cc8fcffe4c8fcff04ccfcff3cf6fcff26f7fcffa00afdff7e0bfdff600cfdff5062fdff688ffdffd294fdffac95fdff5096fdff2097fdfffe97fdffb698fdff8499fdff289afdffca9bfdffba9cfdff569dfdfff29dfdffa2a2fdffbea2fdffc0a2fdffd0a3fdff0caafdff54edfdffa2edfdff8c29feffb22afeff6eaf0000eeec0000503701006c3701003c380100bcaf0100b6b7010044b801009eb80100f4b801000ab9010058b9010096b90100fab9010048ba010092ba01008afb0100241d02004022020036630200ce630200aa640200ce64020012650200c0650200026602004c9c020000a40200e2a7020040a8020046ab0200c6ab0200d80c0300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -295,7 +295,7 @@ MonoBehaviour:
   - {fileID: 10}
   - {fileID: 2}
   m_Selected: 3
-  m_LastSelected: 1
+  m_LastSelected: 3
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -712,9 +712,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 960, y: 540, z: -31}
+    m_Target: {x: 0, y: 0, z: -10}
     speed: 2
-    m_Value: {x: 960, y: 540, z: -31}
+    m_Value: {x: 0, y: 0, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -764,9 +764,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1101.8898
+    m_Target: 12.124355
     speed: 2
-    m_Value: 1101.8898
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -784,7 +784,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.06030855, y: 0.9359631, z: -0.1983289, w: -0.28461084}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 223}
+    scrollPos: {x: 0, y: 51.5}
     m_SelectedIDs: de060000
     m_LastClickedID: 1758
     m_ExpandedIDs: 00000000ea05000000ca9a3bffffff7f
@@ -1122,9 +1122,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 84e10200
-    m_LastClickedInstanceID: 188804
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 86700100
+    m_LastClickedInstanceID: 94342
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ee7100000a8600000000000052360100a89f000056a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

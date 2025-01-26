@@ -105,6 +105,7 @@
     <Compile Include="Assets/EasyTransitions/Scripts/CutoutMaskUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
     <Compile Include="Assets/GameManager.cs" />
+    <Compile Include="Assets/GameOver.cs" />
     <Compile Include="Assets/Scripts/playerMovement.cs" />
     <Compile Include="Assets/Scripts/bullet.cs" />
     <Compile Include="Assets/Scripts/enemy.cs" />
