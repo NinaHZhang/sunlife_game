@@ -375,6 +375,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.38f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/bullet.cs"
 "Assets/Scripts/CoinManager.cs"
+"Assets/Scripts/CoinSpawner.cs"
 "Assets/Scripts/enemy.cs"
 "Assets/Scripts/enemySpawner.cs"
 "Assets/Scripts/PlayerCollection.cs"
