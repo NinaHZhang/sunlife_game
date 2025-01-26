@@ -379,6 +379,7 @@
 "Assets/Scripts/enemy.cs"
 "Assets/Scripts/enemySpawner.cs"
 "Assets/Scripts/Health/health.cs"
+"Assets/Scripts/Health/healthbar.cs"
 "Assets/Scripts/PlayerCollection.cs"
 "Assets/Scripts/playerMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
