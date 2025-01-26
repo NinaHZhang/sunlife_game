@@ -1,19 +1,10 @@
-﻿<Properties StartupConfiguration="{765A2C08-959D-ABD2-6A44-FC26C318D5E6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameOver.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="41" Column="1" />
-      <File FileName="Assets/Scripts/bullet.cs" />
-      <File FileName="Assets/Scripts/enemy.cs" Line="42" Column="6" />
-      <File FileName="Assets/Scenes/Demo.unity" Line="95758" Column="24" />
-      <File FileName="Assets/Scripts/enemySpawner.cs" />
-      <File FileName="Assets/Scripts/CoinManager.cs" Line="25" Column="31" />
-      <File FileName="Assets/Scripts/Health/health.cs" Line="32" Column="1" />
-      <File FileName="Assets/EasyTransitions/Demo/DemoLoadScene.cs" Line="15" Column="13" />
-      <File FileName="Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" Line="44" Column="18" />
-      <File FileName="Assets/GameManager.cs" Line="25" Column="9" />
-      <File FileName="Assets/UISpritesAnimation.cs" Line="9" Column="21" />
-      <File FileName="Assets/StartGameTransition.cs" Line="16" Column="1" />
-      <File FileName="Assets/GameOver.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/CoinManager.cs" Line="35" Column="17" />
+      <File FileName="Assets/Scripts/PlayerCollection.cs" Line="1" Column="1" />
+      <File FileName="Assets/HouseImageScript.cs" Line="35" Column="6" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

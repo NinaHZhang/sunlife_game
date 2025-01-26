@@ -380,6 +380,7 @@
 "Assets/EasyTransitions/Scripts/TransitionSettings.cs"
 "Assets/GameManager.cs"
 "Assets/GameOver.cs"
+"Assets/HouseImageScript.cs"
 "Assets/Scripts/bullet.cs"
 "Assets/Scripts/CoinManager.cs"
 "Assets/Scripts/CoinSpawner.cs"

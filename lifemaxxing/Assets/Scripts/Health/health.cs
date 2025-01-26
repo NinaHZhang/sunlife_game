@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class health : MonoBehaviour
 {
@@ -24,7 +25,9 @@ public class health : MonoBehaviour
             //player hurt
         }
         else {
-            //player dead 
+            //player dead
+            SceneManager.LoadScene("GameOver");
+
         }
     }
     void Update()

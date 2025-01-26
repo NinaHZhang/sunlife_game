@@ -8,14 +8,16 @@ public class GameOver : MonoBehaviour
 
     public void Revive()
     {
-        if (PlayerPrefs.GetString("isGirl").Equals("Yes"))
+        if (PlayerPrefs.GetString("isGirl") == "Yes")
         {
             SceneManager.LoadScene("Girl");
-        } else if (PlayerPrefs.GetString("isGirl").Equals("No"))
+        } else if (PlayerPrefs.GetString("isGirl") == "No")
         {
             SceneManager.LoadScene("Boy");
 
         }
+
+        SceneManager.LoadScene("Girl");
     }
 
 }
