@@ -17,7 +17,6 @@ public class health : MonoBehaviour
 
     public void TakeDamage(float _damage) {
         currentHealth -= _damage;
-<<<<<<< HEAD
         currentHealth = Mathf.Clamp(currentHealth, 0, startingHealth);
 
         
@@ -27,8 +26,6 @@ public class health : MonoBehaviour
         else {
             //player dead 
         }
-=======
->>>>>>> d1ecd5bf15e765b62eed127610625096f749ce02
     }
     void Update()
     {
